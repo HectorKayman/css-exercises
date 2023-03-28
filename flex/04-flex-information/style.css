@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* -----SOLUTION------ */
+
+.title {
+  /* Centers the main heading */
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.container {
+  /* Makes the display into flex and aligns it */ 
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.flex-item {
+  /* Inherits the flex properties from parent and centers all alignments */
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  /* Aligns the descriptions of all the fruits */
+  text-align: center;
+}
