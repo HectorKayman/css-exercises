@@ -25,3 +25,32 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container, .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 8px;
+}
+
+li > a {
+  text-decoration: none;
+  color: darkgrey;
+}
