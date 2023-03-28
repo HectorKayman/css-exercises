@@ -64,3 +64,36 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* -------SOLUTION-------- */
+
+.modal {
+  display: flex;
+  gap: 8px;
+  padding: 1rem;
+}
+
+.flex-dialog {
+  /* Changes the direction of flex to column to better fit the layout */
+  display: inherit;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flex-head {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  /* Prevents the icon from getting squeezed */
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.header {
+  /* Makes the heading stand out */
+  font-weight: 700;
+  font-size: 1.25rem;
+}
